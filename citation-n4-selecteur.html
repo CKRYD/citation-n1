@@ -9,17 +9,55 @@
 body {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 div {color:red}
 .quote { font-size: 4rem;}
+.source { font-size: 2rem;
+	font-style: italic;
+	margin-top: 2rem;
+}
 
-.source { font-size: 2rem;}
-.source{font-style: italic;}
+.citation{
+	margin: 2rem;
+	border: 2px solid rgb(11, 0, 5);
+	padding: 1rem;
+	border-radius: 2rem;
+	aspect-ratio: 16/9;
+}
+.important{ 
+	background-color: rgb(7, 7, 7);
+	padding: 1rem;
+	border-radius: 2rem;
 
+}
+.pasimportant{
+	color: rgb(0, 3, 5);	
+}
+
+#chocolatine{ background: rgb(255, 147, 40)}
+
+#muffin{ background: black}	
+
+img { 
+	max-width: 100%;
+	border-radius: 2rem;
+	border: 2px solid black
+}
+	
 	</style>
 
 </head>
 <body>
+
+	<div class="citation" id="chocolatine">
+		<div  class="quote important">"boooooring"</div>
+		<div class="source pasimportant">he he he</div>
+		<img src="313f88f9-b2f7-4f6e-a31f-d2106e481799.JPG" alt="chaton">
+	</div>
 	
-<div  class="quote">"bonjour mes puces"</div>
-<div class="source">meeeee</div>
+<div class="citation" id="muffin">
+	<div class="quote mnmnmmm">"une partie de ma beauté, c'est que je suis riche "</div>
+	<div class="source">donald trump</div>
+	<img src="313f88f9-b2f7-4f6e-a31f-d2106e481799.JPG" alt="chaton">
+</div>
+
 
 </body>
 </html>
