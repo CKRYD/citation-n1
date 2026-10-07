@@ -1,8 +1,23 @@
 #navbar{
-border: 3px solid black;
+border: 3px solid rgba(0, 0, 0, 0);
 padding: 14px;
-margin-right: 250px;
 border-radius: 50px;
-background-color: rgb(255, 87, 179);
+background-color: rgb(0, 178, 74);
 word-spacing: 20px;
+max-width: max-content;
+position: fixed;
+bottom:1rem;
+left: 1rem;
+
+}
+
+#navbar a{
+	color:rgba(255, 254, 254, 0.995);
+	text-decoration: none;
+	
+}
+
+#navbar a:hover{
+	/* background: black; */
+	color:black;
 }
