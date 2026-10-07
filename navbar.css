@@ -8,6 +8,9 @@ max-width: max-content;
 position: fixed;
 bottom:1rem;
 left: 1rem;
+font-family: monospace;
+font-size: 20px;
+font-style: normal;
 
 }
 
